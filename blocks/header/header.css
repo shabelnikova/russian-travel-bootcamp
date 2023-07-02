@@ -1,0 +1,19 @@
+.header {
+    padding: 0 48px;
+    font-family: Inter, sans-serif;
+    max-width: 1184px;
+    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 0 24px;
+    }
+}
+@media (max-width: 320px) {
+    .header {
+        padding: 0 16px;
+    }
+}

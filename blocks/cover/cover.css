@@ -1,0 +1,9 @@
+.cover {
+    padding: 0 48px;
+    font-family: Inter, sans-serif;
+}
+@media (max-width: 1024px) {
+    .cover {
+        padding: 0;
+    }
+}
