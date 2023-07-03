@@ -6,11 +6,17 @@
     line-height: 76px;
     align-self: end;
 }
-@media (max-width: 768px) {
+@media(max-width: 1023px) {
     .place__title {
-        max-width: 340px;
-        font-size: clamp(32px, 10vw, 72px);
-        line-height: clamp(35px, 10vw, 76px);
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 330px;
+    }
+}
+@media (max-width: 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
     }
 }
 @media (max-width: 420px) {
