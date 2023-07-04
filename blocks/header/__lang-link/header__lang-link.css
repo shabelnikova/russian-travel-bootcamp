@@ -5,10 +5,6 @@
     line-height: 28px;
     text-decoration: none;
 }
-/*.header__lang-link:last-child {*/
-/*    margin-right: 0;*/
-/*    border: none;*/
-/*}*/
 @media (max-width: 420px) {
     .header__lang-link {
         font-size: 18px;
